@@ -8,24 +8,151 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textActivityMain"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/lvMain_1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="65dp"
-        android:layout_toEndOf="@+id/ivActivityMain"
-        android:layout_toRightOf="@+id/ivActivityMain"
-        android:text="@string/hello_world"
-        android:textSize="30dp" />
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/ivActivityMain"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:src="@android:drawable/ic_menu_directions" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivActivityMain_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginStart="38dp"
+                android:src="@android:drawable/ic_menu_directions" />
+
+            <TextView
+                android:id="@+id/textActivityMain_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_toEndOf="@+id/ivActivityMain_1"
+                android:layout_toRightOf="@+id/ivActivityMain_1"
+                android:text="@string/hello_world"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lvMain_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvMain_1"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivActivityMain_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginStart="38dp"
+                android:src="@android:drawable/ic_menu_directions" />
+
+            <TextView
+                android:id="@+id/textActivityMain_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_toEndOf="@+id/ivActivityMain_2"
+                android:layout_toRightOf="@+id/ivActivityMain_2"
+                android:text="@string/hello_world"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lvMain_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvMain_2"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivActivityMain_3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginStart="38dp"
+                android:src="@android:drawable/ic_menu_directions" />
+
+            <TextView
+                android:id="@+id/textActivityMain_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_toEndOf="@+id/ivActivityMain_3"
+                android:layout_toRightOf="@+id/ivActivityMain_3"
+                android:text="@string/hello_world"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lvMain_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lvMain_3"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivActivityMain_4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginStart="38dp"
+                android:src="@android:drawable/ic_menu_directions" />
+
+            <TextView
+                android:id="@+id/textActivityMain_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_toEndOf="@+id/ivActivityMain_4"
+                android:layout_toRightOf="@+id/ivActivityMain_4"
+                android:text="@string/hello_world"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
 
 </RelativeLayout>
